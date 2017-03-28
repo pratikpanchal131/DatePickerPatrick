@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DatePickerPatrick'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DatePickerPatrick.'
+  s.summary          = 'Custome Date Picker'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Customizing Date Picker with Swift 3.0 with Xib Created by Pratik Panchal
                        DESC
 
   s.homepage         = 'https://github.com/pratikpanchal131/DatePickerPatrick'
@@ -30,11 +30,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DatePickerPatrick/Classes/**/*'
+  # s.source_files = 'DatePickerPatrick/Classes/**/*'
   
   # s.resource_bundles = {
   #   'DatePickerPatrick' => ['DatePickerPatrick/Assets/*.png']
   # }
+
+  s.source_files = 'DatePickerPatrick/Classes/**/*.{swift}'
+  s.resource_bundles = {
+    'DatePickerPatrick' => ['DatePickerPatrick/Classes/**/*.{storyboard,xib,nib,xcassets,json,imageset,png}']
+  }
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
