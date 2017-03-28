@@ -15,6 +15,7 @@
 		72449EF56FECBCFA7FBC921220FA86B9 /* Pods-DatePickerPatrick_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E56C3BFF75B96CAA004CC6F23F04B /* Pods-DatePickerPatrick_Tests-dummy.m */; };
 		7301687EB86BFD9E4A1CDAAA2BFFD9B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		7E13DE877E986855495B589D40F1C3AE /* DatePickerPatrick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C25C81464261CA462871531E087E1D2 /* DatePickerPatrick-dummy.m */; };
+		A928F58A1E8A615E002767B2 /* PKDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A928F5881E8A615E002767B2 /* PKDatePicker.swift */; };
 		AD450EAA9E5399D32D4427E89B903D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		B5C97BBEEE4E1CE8107697F9BDFE68C5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693C42D855FCBF40BE0D23E3AA7BC94D /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
@@ -30,15 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0166E71462AF85AF74B2A374E2717B86 /* DatePickerPatrick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DatePickerPatrick.modulemap; sourceTree = "<group>"; };
+		0166E71462AF85AF74B2A374E2717B86 /* DatePickerPatrick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DatePickerPatrick.modulemap; sourceTree = "<group>"; };
 		05C15CC27A76502B3522C1FCE3091DF2 /* Pods-DatePickerPatrick_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DatePickerPatrick_Example-resources.sh"; sourceTree = "<group>"; };
 		13B7B1A75ED3BA73AD9B532BEF3A052A /* Pods-DatePickerPatrick_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DatePickerPatrick_Example-dummy.m"; sourceTree = "<group>"; };
-		13BAD65C84F8ACC0B91BC7A7842B2882 /* Pods-DatePickerPatrick_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DatePickerPatrick_Tests.modulemap"; sourceTree = "<group>"; };
+		13BAD65C84F8ACC0B91BC7A7842B2882 /* Pods-DatePickerPatrick_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DatePickerPatrick_Tests.modulemap"; sourceTree = "<group>"; };
 		1D6300AC5B4C034ADE3AD662719020C0 /* DatePickerPatrick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerPatrick-prefix.pch"; sourceTree = "<group>"; };
 		3D694416D289E19EE798C602CCC13EE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41D8360C0D88DFF153E4E024920426D8 /* Pods-DatePickerPatrick_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DatePickerPatrick_Example.modulemap"; sourceTree = "<group>"; };
+		41D8360C0D88DFF153E4E024920426D8 /* Pods-DatePickerPatrick_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DatePickerPatrick_Example.modulemap"; sourceTree = "<group>"; };
 		47B09E39F9DD96861E00FDEF40FB0B84 /* Pods-DatePickerPatrick_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DatePickerPatrick_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		565068EDEAC5B99A2D6E235717123BFA /* Pods_DatePickerPatrick_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DatePickerPatrick_Tests.framework; path = "Pods-DatePickerPatrick_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		565068EDEAC5B99A2D6E235717123BFA /* Pods_DatePickerPatrick_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatePickerPatrick_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A1B157C76D5333B2D9122960161987 /* Pods-DatePickerPatrick_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DatePickerPatrick_Example-umbrella.h"; sourceTree = "<group>"; };
 		5D832595AE09D20BFCAF544089A3B0AF /* Pods-DatePickerPatrick_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DatePickerPatrick_Example-frameworks.sh"; sourceTree = "<group>"; };
 		67975C2A121B436FEFE8A7B51859E587 /* Pods-DatePickerPatrick_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DatePickerPatrick_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -52,15 +53,17 @@
 		807F8000433C09BE16E5C57E79785BD2 /* DatePickerPatrick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DatePickerPatrick.xcconfig; sourceTree = "<group>"; };
 		8F14417EEA697502DD4BDD8D67A69BDF /* Pods-DatePickerPatrick_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DatePickerPatrick_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8FD604ECB2547182EBFF7BF445FA7265 /* Pods-DatePickerPatrick_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DatePickerPatrick_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C8E56C3BFF75B96CAA004CC6F23F04B /* Pods-DatePickerPatrick_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DatePickerPatrick_Tests-dummy.m"; sourceTree = "<group>"; };
 		A6CF1235E1C86D00C760169B34917862 /* Pods-DatePickerPatrick_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DatePickerPatrick_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A928F5881E8A615E002767B2 /* PKDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKDatePicker.swift; sourceTree = "<group>"; };
+		A928F5891E8A615E002767B2 /* PKDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKDatePicker.xib; sourceTree = "<group>"; };
 		A9CC26711DE71360A2C3C941F8F7A88E /* Pods-DatePickerPatrick_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DatePickerPatrick_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BBE7503C36A834D788708C3C2682A3BD /* Pods_DatePickerPatrick_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DatePickerPatrick_Example.framework; path = "Pods-DatePickerPatrick_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE7503C36A834D788708C3C2682A3BD /* Pods_DatePickerPatrick_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatePickerPatrick_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59111FC5004EF9BF668F9B80463D031 /* Pods-DatePickerPatrick_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DatePickerPatrick_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E3D934B353786AA58B9F530D14FB69CF /* Pods-DatePickerPatrick_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DatePickerPatrick_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EABF0452098071217D92B9E4098E7656 /* DatePickerPatrick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DatePickerPatrick.framework; path = DatePickerPatrick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABF0452098071217D92B9E4098E7656 /* DatePickerPatrick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DatePickerPatrick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C9A84F383B768B88DBCDDE9D2D7701 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +108,6 @@
 			children = (
 				D5E44082C7E198F12AC08BAA7B4E5B6D /* Classes */,
 			);
-			name = DatePickerPatrick;
 			path = DatePickerPatrick;
 			sourceTree = "<group>";
 		};
@@ -194,9 +196,10 @@
 		D5E44082C7E198F12AC08BAA7B4E5B6D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A928F5881E8A615E002767B2 /* PKDatePicker.swift */,
+				A928F5891E8A615E002767B2 /* PKDatePicker.xib */,
 				693C42D855FCBF40BE0D23E3AA7BC94D /* ReplaceMe.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -339,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A928F58A1E8A615E002767B2 /* PKDatePicker.swift in Sources */,
 				7E13DE877E986855495B589D40F1C3AE /* DatePickerPatrick-dummy.m in Sources */,
 				B5C97BBEEE4E1CE8107697F9BDFE68C5 /* ReplaceMe.swift in Sources */,
 			);
